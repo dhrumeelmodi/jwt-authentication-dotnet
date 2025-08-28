@@ -20,13 +20,3 @@ This is a simple Web API built with **ASP.NET Core 9** that demonstrates **JWT A
 - `GET /api/secure/user` → Accessible to logged-in users
 - `GET /api/secure/admin` → Accessible only to Admin
 
-## How to Run
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/yourusername/jwt-authentication-dotnet.git
-2. Update appsettings.json with your SQL Server connection string.
-
-3. Run migrations
-    dotnet ef database update
-4. Run the project
-    dotnet run   
